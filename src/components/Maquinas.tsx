@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from './Header';
+import MaquinasForm from './Maquinas/MaquinaForm';
 
 const Maquinas = () => {
-    return (
-        <>
+    return (<>
             <Header />
-            <h1>Maquinas Page</h1>
-        </>
+            <MaquinasForm />      
+    </>
     );
 };
 
